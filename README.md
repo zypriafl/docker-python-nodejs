@@ -32,4 +32,4 @@ FROM zypriafl/python-nodejs:latest
 ```
 
 ## Disclaimer
-> This is experimental and might break from time to time. Use at your own risk!
+> This is experimental and might break from time to time. Use at your own risk.
