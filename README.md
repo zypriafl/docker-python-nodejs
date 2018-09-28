@@ -6,7 +6,7 @@
 - Node: 10.x
 - npm: 6.x
 - yarn: stable
-- Python: latest
+- Python: 3.6
 - pip: latest
 - pipenv: latest
 
@@ -18,17 +18,17 @@ docker pull nikolaik/python-nodejs:latest
 
 ### Build from GitHub
 ```
-docker build -t nikolaik/python-nodejs github.com/nikolaik/docker-python-nodejs
+docker build -t zypriafl/python-nodejs github.com/nikolaik/docker-python-nodejs
 ```
 
 ### Run image
 ```
-docker run -it nikolaik/python-nodejs bash
+docker run -it zypriafl/python-nodejs bash
 ```
 
 ### Use as base image
 ```Dockerfile
-FROM nikolaik/python-nodejs:latest
+FROM zypriafl/python-nodejs:latest
 ```
 
 ## Disclaimer
